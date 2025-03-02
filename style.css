@@ -7,6 +7,7 @@ header{
 height: 850px;
 padding-left: 240px;
 padding-right: 240px;
+margin-bottom: 178px;
 
 }
 .header-container{
@@ -48,5 +49,123 @@ padding-bottom: 32px;
     background-color: #E55473;
     color: #fff;
     border: none;
+
+}
+main{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.feature-title{
+    color: #272727;
+
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.feature-para{
+ 
+    max-width:594px ;
+    margin: 0px auto;
+    color: rgba(39, 39, 39, 0.60);
+
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.fimg-container{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+
+}
+.img-container-ext{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.img-container-int{
+    width: 310px;
+height: 428px;
+margin-left: 76px;
+margin-top: 110px;
+margin-bottom: 32px;
+}
+.img-container-exte{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+
+
+}
+.img-container-inte{
+    width: 370px;
+height: 370px;
+margin-left: 47px;
+margin-top: 117px;
+margin-bottom: 80px;
+}
+.img-container-exter{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+
+
+
+
+}
+.img-container-inter{
+    width: 314px;
+    height: 471px;
+margin-left: 75px;
+margin-top: 67px;
+margin-bottom: 32px;
+}
+.flower-title{
+   
+    max-width: 181px;
+    margin-left: 180px;
+ 
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+
+text-underline-offset: auto;
+
+}
+.flower-title2{
+ 
+    max-width: 181px;
+    margin-left: 180px;
+ 
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 145.833% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+
+text-underline-offset: auto;
 
 }
