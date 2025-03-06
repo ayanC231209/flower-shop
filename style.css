@@ -1,6 +1,10 @@
 *{  margin: 0px;
     font-family: Lato;
 }
+.hidden{
+    display: none;
+}
+
 header{
     background: rgba(229, 84, 115, 0.10);
    max-width: 100%;
@@ -80,7 +84,8 @@ font-weight: 400;
     margin-left: 240px;
     margin-right: 240px;
     margin-top: 48px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
 
 }
@@ -99,65 +104,15 @@ margin-left: 76px;
 margin-top: 110px;
 margin-bottom: 32px;
 }
-.img-container-exte{
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
 
 
-}
-.img-container-inte{
-    width: 370px;
-height: 370px;
-margin-left: 47px;
-margin-top: 117px;
-margin-bottom: 80px;
-}
-.img-container-exter{
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-
-
-
-
-
-}
-.img-container-inter{
-    width: 314px;
-    height: 471px;
-margin-left: 75px;
-margin-top: 67px;
-margin-bottom: 32px;
-}
-.flower-title{
-   
-    max-width: 181px;
-    margin-left: 180px;
- 
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px; /* 145.833% */
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-skip-ink: none;
-
-text-underline-offset: auto;
-
-}
 .flower-title2{
  
     max-width: 181px;
-    margin-left: 180px;
+   margin: 0px auto;
  
     color: #272727;
-text-align: center;
+
 font-family: Lato;
 font-size: 24px;
 font-style: normal;
@@ -354,4 +309,61 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+
+@media screen and (max-width:576px) {
+    header{
+     background-color: transparent;
+     padding-left:10px;
+     padding-right: 0px;
+     
+    }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .header-info{
+        padding: 0px;
+    }
+    .header-info-title{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .header-info-para{
+       text-align: center;
+    }
+    .img-cnt{
+        padding-top: 10px;
+    }
+    .ac{
+    display: flex;
+    justify-content: center;
+    }
+    .feature{
+        margin-top: 300px;
+        padding-left: 10px;
+    }
+    .fimg-container{
+        grid-template-columns: 1fr;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .img-container-ext{
+        padding-bottom: 70px;
+        background: transparent !important;
+    }
+    .flower-title2{
+        padding-left: 40px;
+    }
+    .icon{
+        
+        background: transparent;
+        grid-template-columns: 1fr;
+        margin: 0px;
+        margin-top: 60px;
+    }
+    .icon-cnt{
+        margin-bottom: 50px;
+    }
 }
